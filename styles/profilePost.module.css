@@ -1,0 +1,55 @@
+.profile_posts_bg {
+    background: #393c40e6;
+    border-radius: 7px;
+}
+
+.border_round_picture {
+
+    border-radius: 50%;
+}
+
+.image_width {
+    width: 8%;
+}
+
+.input_width {
+    width: 92%;
+}
+
+.upload_input {
+    border: 0;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.upload_nput {
+    background-color: #555b61;
+    padding: 10px;
+}
+
+.upload_input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.674);
+
+}
+
+.posts_btn {
+    border: 0;
+    background: none;
+    color: rgba(255, 255, 255, 0.741);
+    font-weight: bold;
+}
+.edit_profile_btn {
+
+    border: 0;
+    border-radius: 7px;
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    background-color: #555b61;
+
+}
+
+.top_border {
+    border-top: 1px solid rgba(255, 255, 255, 0.245);
+    margin-top: 10px;
+}

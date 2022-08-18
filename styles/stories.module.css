@@ -1,0 +1,24 @@
+.profile_div {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    border: 3px solid #1877F2;
+    z-index: 1;
+
+}
+
+.profile_img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+}
+
+.story_name {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+}

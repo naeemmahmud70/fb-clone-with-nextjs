@@ -1,0 +1,66 @@
+.loginSection {
+    height: 100vh;
+}
+
+#facebook {
+    font-size: 3.4rem;
+    font-weight: bolder;
+    color: #1877f2;
+}
+
+#about_facebook {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.login_form {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    width: 396px;
+    margin: 40px 0 0;
+    padding: 20px;
+}
+
+.login-input {
+    height: 50px;
+    line-height: 16px;
+    border-radius: 7px;
+}
+
+.login_btn {
+    background-color: #166fe5;
+    border-color: #365899;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+
+.create_btn {
+    border: 0;
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 520px) {
+    #facebook {
+        text-align: center;
+    }
+
+    #about-facebook {
+        text-align: center;
+    }
+}
