@@ -74,8 +74,8 @@ const Stories = () => {
         spaceBetween={1}
         centeredSlides="true"
         grabCursor="true"
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log()}
+        onSwiper={(swiper) => console.log()}
         breakpoints={{
           480: {
             slidesPerView: 3,

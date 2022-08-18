@@ -7,7 +7,6 @@ import {
   faMessage,
   faShare,
 } from "@fortawesome/free-solid-svg-icons";
-import Navbar from "../Navbar";
 
 const AllPosts = () => {
   const AllPostData = [

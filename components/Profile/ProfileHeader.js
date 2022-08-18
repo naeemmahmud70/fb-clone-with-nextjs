@@ -8,16 +8,12 @@ import {
   faPenAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import ProfileNavigationVar from "./ProfileNavigationVar";
-import Cookies from "js-cookie";
 
 const ProfileHeader = () => {
-  const loggedInUser = Cookies.get("loggedin");
-  const user = JSON.parse(loggedInUser);
-  console.log(user);
   return (
     <div className={styles.profile_header_bg}>
       <div className="container">
-        <div>
+        <div className="pt-2">
           <div>
             <Image
               className="rounded"
@@ -51,7 +47,7 @@ const ProfileHeader = () => {
               <div className="d-flex align-items-center mx-4">
                 <div>
                   <div>
-                    <h2 className="text-white">{user.fullName}</h2>
+                    <h2 className="text-white">Naeem Miah</h2>
                     <h5 className="text-white">1.1k friends</h5>
                   </div>
                   <div>

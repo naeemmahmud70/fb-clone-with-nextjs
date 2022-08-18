@@ -1,15 +1,15 @@
 import React from "react";
+import Meta from "../components/Meta";
 import Navbar from "../components/Navbar";
 import ProfileHeader from "../components/Profile/ProfileHeader";
 import ProfileIntro from "../components/Profile/ProfileIntro";
 import ProfilePosts from "../components/Profile/ProfilePosts";
-import Cookies from "js-cookie";
 
 const Profile = () => {
-  
   return (
     <>
-    <Navbar></Navbar>
+      <Navbar></Navbar>
+      <Meta title="Profile"></Meta>
       <ProfileHeader></ProfileHeader>
       <div style={{ backgroundColor: "#1c1e21", marginTop: "-50px" }}>
         <div className="container">
